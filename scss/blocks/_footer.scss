@@ -1,0 +1,142 @@
+.footer{
+   padding: 48px;
+   background-color: #2D314D;
+}
+.footer__inner{
+   display: flex;
+}
+.networks-case{
+   display: flex;
+   flex-direction: column;
+   margin-right: 130px;
+}
+.footer__logo{
+   margin-bottom: auto;
+   transition: 0.2s ease;
+}
+.footer__logo:hover{
+   opacity: 0.8;
+}
+.networks{
+   display: flex;
+   margin: 0px;
+   padding: 0px;
+   list-style-type: none;
+}
+.networks__item + .networks__item{
+   margin-left: 13px;
+}
+.networks__link{
+   color: #fff;   
+   transition: 0.2s ease;
+}
+.networks__link:hover{
+   color: #30C88F;
+}
+
+.footer__list{
+   width: 160px;
+   margin: 0px;
+   padding: 0px;
+   list-style: none;
+   margin-right: 30px;
+}
+.footer__list--right{
+   margin-right: auto;
+}
+.footer__item + .footer__item{
+   margin-top: 8px;
+}
+.footer__link{
+   font-family: "Public Sans";
+   font-size: 15px;
+   line-height: 26px;
+   letter-spacing: -0.234375px;
+   color: #FFFFFF;
+   text-decoration: none;
+   transition: 0.2s ease;
+}
+.footer__link:hover{
+   color: #30C88F;
+}
+.footer__rules{
+   display: flex;
+   flex-direction: column;
+   text-align: right;
+}
+.footer__request-link{
+   width: 165px;
+   display: inline-block;
+   font-family: "Public Sans";
+   font-style: normal;
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 28px;
+   color: #FFFFFF;
+   text-decoration: none;
+   padding: 8px 0px;
+   text-align: center;
+   background: linear-gradient(135deg, #33D35E 0%, #2AB6D9 99.58%);
+   border-radius: 22px;
+   transition: 0.2s ease; 
+   margin-left: auto;
+   margin-bottom: auto;
+}
+.footer__request-link:hover{
+   opacity: 0.8;
+}
+.footer__request-text{
+   font-family: "Public Sans";
+   font-weight: 100;
+   font-size: 15px;
+   line-height: 26px;
+   text-align: right;
+   letter-spacing: -0.234375px;
+   color: #FFFFFF;
+   mix-blend-mode: normal;
+   opacity: 0.5;
+}
+@media only screen and (max-width:426px){
+   .footer{
+      padding: 40px 0px;
+   }
+   .footer__inner{
+      flex-direction: column;
+   }
+   .networks-case{
+      margin: 0px auto 32px;
+   }
+   .footer__logo{
+      margin: 0px auto;
+      margin-bottom: 32px;
+   }
+   .networks{
+      margin: 0px auto;
+   }
+   .networks__item + .networks__item{
+      margin-left: 16px;
+   }
+
+   .footer__list{
+      margin: 0px auto;
+   }
+   .footer__item{
+      text-align: center;
+   }
+   .footer__item + .footer__item{
+      margin-top: 0px;
+      margin-top: 8px;
+      text-align: center;
+   }
+
+
+
+   .footer__rules{
+      margin: 40px auto 0;
+   }
+   .footer__request-link{
+      margin: 0px auto;
+      margin-bottom: 24px;
+   }
+
+}

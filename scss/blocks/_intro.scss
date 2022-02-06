@@ -1,0 +1,113 @@
+.intro{
+   background-image: url(../img/hero-bg-desktop.png);
+   background-repeat: no-repeat;
+   background-position: calc(50% + 630px) calc(50% );
+   background-size: cover;
+   background-color: #F2F2F2;
+   padding: 280px 0px 170px 0px;
+   position: relative;
+   z-index: 1;
+}
+.intro__inner{
+   max-width: 447px;
+}
+.intro__title{
+   font-family: "Public Sans";
+   font-style: normal;
+   font-weight: 100;
+   font-size: 56px;
+   line-height: 64px;
+   letter-spacing: -1px;
+   color: #2D314D;
+   margin-top: 0px;
+   margin-bottom: 24px;
+}
+.intro__describtion{
+   font-family: "Public Sans";
+   font-weight: normal;
+   font-size: 18px;
+   line-height: 28px;
+   letter-spacing: -0.28125px;
+   color: #9597A5;
+   margin-top: 0px;
+   margin-bottom: 36px;
+}
+.intro__link{
+   width: 165px;
+   display: inline-block;
+   font-family: "Public Sans";
+   font-style: normal;
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 28px;
+   color: #FFFFFF;
+   text-decoration: none;
+   padding: 8px 0px;
+   text-align: center;
+   background: linear-gradient(135deg, #33D35E 0%, #2AB6D9 99.58%);
+   border-radius: 22px;
+   transition: 0.2s ease;   
+}
+.intro__link:hover{
+   opacity: 0.6;
+}
+.intro__img{
+   position: absolute;
+   z-index: 10;
+   left: calc(50% + 112px);
+   top: calc(50% - 430px);
+}
+
+
+@media only screen and (max-width:426px){
+   .intro{
+      background-image: url(../img/hero-bg_mobile.png);
+      background-position: calc(50% + 0px) calc(0% - 40px);
+      background-size: contain;
+      padding-top: 390px;
+      padding-bottom: 90px;
+   }
+   .intro__title{
+      font-family: "Public Sans";
+      font-style: normal;
+      font-weight: 100;
+      font-size: 40px;
+      line-height: 47px;
+      text-align: center;
+      letter-spacing: -0.714286px;
+      color: #2D314D;
+      margin-bottom: 16px;
+   }
+   .intro__describtion{
+      font-family: "Public Sans";
+      font-size: 15px;
+      line-height: 25px;
+      text-align: center;
+      letter-spacing: -0.234375px;
+      color: #9597A5;
+   }
+   .intro__link{
+      display: block;
+      margin: 0px auto;
+   }
+   .intro__img{
+      content: url(../../img/hero-phones-mobile.png);
+      left: 50%;
+      transform: translate(-50%);
+      top: calc(0px);
+   }
+   
+}
+
+@media only screen and (max-width:376px){
+   .intro{
+      background-image: url(../img/hero-bg_mobile.png);
+      background-position: calc(50% + 0px) calc(0% - 0px);
+      background-size: contain;
+      padding-top: 390px;
+   }
+   .intro__img{
+      width: 100%;
+   }
+   
+}
